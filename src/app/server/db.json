@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "fasdf",
+      "price": 234234
+    },
+    {
+      "id": 2,
+      "name": "asdfa",
+      "price": 3234234
+    }
+  ]
+}
