@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "name": "fasdf",
-      "price": 234234
+      "name": "apple",
+      "price": "234234"
     },
     {
       "id": 2,

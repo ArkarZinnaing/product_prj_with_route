@@ -21,7 +21,7 @@ export class ProductServiceService {
    -----------------------------------------------------
  */
 
-  patch = this._shared.getApiServer() + "products/" 
+  patch = this._shared.getApiServer()  + "products/"
 
   allProduct: Product[];
   productData: Product[];
@@ -39,7 +39,7 @@ export class ProductServiceService {
     return this.http.get<any>(this.patch , headerOption).subscribe(
       (data) => {
         this.allProduct = data;
-        console.log(data)
+        console.table(data)
         setTimeout(() => {
           this._shared.ngxSpinnerService.hide();
         }, 500);
